@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="footer-copyright" style="padding-bottom: 20px;">
-    <div class="wide-container underline">© 2021 OG Tech PC All rights reserved.</div>
+    <div class="wide-container underline">© 2023 OG Tech PC All rights reserved.</div>
   </div>
 
   <script>
