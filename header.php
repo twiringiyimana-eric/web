@@ -10,7 +10,10 @@
   <script src="./static/materialize/js/materialize.min.js" defer></script>
   <script type="text/javascript" src="static/js/pagination.js"></script>
   <link rel="stylesheet" href="./static/css/base.css">
-  <link rel="icon" type="image/png" style="border-radius: 50%;" href="./static/logoicon.png">
+  <style>
+
+
+  </style>
 </head>
 
 <?php
@@ -35,7 +38,7 @@
 <div class="nav-wrapper" style="height: 100px">
   <nav style="height: 100px;">
     <div class="nav-wrapper black" style="box-shadow: 0px 0px 2px white;">
-      <a href="index.php"><img src = "./static/logo.svg" alt="logo" id="logo" class="brand-logo glow-image" height="100"/></a>
+      <a href="index.php"><img src = "./static/dell-inspiron-15-5000-15.png" alt="logo" id="logo" class="brand-logo glow-image" height="100"/></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="black" id="search-bar">
           <form action="product_catalogue.php">

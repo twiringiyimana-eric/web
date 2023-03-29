@@ -64,17 +64,17 @@
 <div class="container" style="margin-top: 50px;">
   <div class="rounded-card-parent">
     <div class="card rounded-card">
-      <a class="btn red darken-2" href="product_catalogue.php?query=" style='margin-left: 20px'>< BACK TO CATALOGUE</a>
+      <a class="btn red darken-2" href="product_catalogue.php?query=" style='margin-left: 0px'>< BACK TO CATALOGUE</a>
       <form action="product.php" method="GET" style="padding-left: 10px;">
         <input type="hidden" name="item_id" value=<?php echo($itemID) ?>>
         <div class="row">
           <div class="col s4">   
             <a class="magnifier-thumb-wrapper demo">
-              <img id="thumb" style="max-height: 350px; max-width: 350px; margin-top: 30px" src="product_images/<?php echo($image); ?>"
+              <img id="thumb" style="max-height: 330px; marign-right:20px;max-width: 280px;margin-top: 30px" src="product_images/<?php echo($image); ?>"
               data-large-img-url="product_images/<?php echo($image); ?>"
               data-large-img-wrapper="preview">
             </a>
-            <div class="magnifier-preview example heading" id="preview" style="width: 600px; height:450px"></div>
+            <div class="magnifier-preview example heading" id="preview" style="width: 550px; height:450px;border-radius:20px"></div>
           </div>
           <div class="col s8">
             <div class="row">

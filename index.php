@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OG Tech PC - Landing Page</title>
+  <title>Landing Page</title>
   <?php 
     require "header.php"; 
     require_once "includes/class_autoloader.php";
@@ -13,12 +13,15 @@
     $dbinit = new InitDB();
     $dbinit->initDbExec();
   ?>
+  <style>
+    /* body{background-color:gray} */
+    </style>
 </head>
 <body>
-  <div class="slider" style="width: 60%; margin: auto;">
+  <div class="slider" style="width: 70%; margin: auto;">
     <ul class="slides">
       <li>
-        <img src="./static/images/carousel_1.gif"> 
+        <img src="./static/banner1.png"> 
         <div class="caption center-align">
           <h3></h3>
           <h5 class="light grey-text text-lighten-3">Build your dream setup with Us.</h5>
@@ -27,7 +30,7 @@
       <li>
         <img src="./static/images/category_3.jpg"> 
         <div class="caption center-align">
-          <h3 class="bold page-title">At OG Tech</h3>
+          <h3 class="bold page-title">At Tech</h3>
           <h5 class="bold page-title">From pc to peripherals, we got u covered.</h5>
         </div>
       </li>
@@ -88,7 +91,7 @@
     <div class="wide-container">
       <h3 class="white-text center">BUILT BY ENTHUSIASTS FOR ENTHUSIASTS</h3>
       <h5 class="white-text center">
-        At <b class="orange-text">OG Tech PC</b>, We are a team of serious gamers and overclockers with a passion towards customized and fast PCs.
+        At <b class="orange-text">Tech PC</b>, We are a team of serious gamers and overclockers with a passion towards customized and fast PCs.
       </h5>
     </div>
   </div>
@@ -112,7 +115,7 @@
     </div>
   </div>
 
-  <h3 class="white-text center">OG Tech PC - White PC Build</h3>
+  <h3 class="white-text center"> Tech PC - White PC Build</h3>
   <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'" style="margin-bottom: 100px">
     <img src="static/images/ice_pc.png" style="cursor:pointer; display:block; margin: 0 auto; " />
   </div>
@@ -199,8 +202,8 @@
     </div>
   </div>
 
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <div class="elfsight-app-dcc4934e-3eb0-4e18-98af-67fd2f034df1"></div>
+  <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-dcc4934e-3eb0-4e18-98af-67fd2f034df1"</div> -->
 
   <?php require "footer.php"; ?>
 </body>

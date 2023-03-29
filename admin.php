@@ -33,7 +33,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-action left" style="width: 340px;">
+            <div class="card-action left" padding="10px"style="width: 340px;">
               <a href="admin_report.php#user">View Report</a>
               <a href="admin_manage_users.php">Manage Users</a>
             </div>
